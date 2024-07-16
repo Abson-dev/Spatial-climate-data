@@ -1,0 +1,280 @@
+ADMIN2PCOD,ADMIN2NAME
+BF4601,Bale
+BF4602,Banwa
+BF4603,Kossi
+BF4604,Mouhoun
+BF4605,Nayala
+BF4606,Sourou
+BF4701,Comoe
+BF4702,Leraba
+BF1300,Kadiogo
+BF4801,Boulgou
+BF4802,Koulpelogo
+BF4803,Kouritenga
+BF4901,Bam
+BF4902,Namentenga
+BF4903,Sanmatenga
+BF5001,Boulkiemde
+BF5002,Sanguie
+BF5003,Sissili
+BF5004,Ziro
+BF5101,Bazega
+BF5102,Nahouri
+BF5103,Zoundweogo
+BF5201,Gnagna
+BF5202,Gourma
+BF5203,Komonjdjari
+BF5204,Kompienga
+BF5205,Tapoa
+BF5301,Houet
+BF5302,Kenedougou
+BF5303,Tuy
+BF5401,Loroum
+BF5402,Passore
+BF5403,Yatenga
+BF5404,Zondoma
+BF5501,Ganzourgou
+BF5502,Kourweogo
+BF5503,Oubritenga
+BF5601,Oudalan
+BF5602,Seno
+BF5603,Soum
+BF5604,Yagha
+BF5701,Bougouriba
+BF5702,Ioba
+BF5703,Noumbiel
+BF5704,Poni
+TD1902,Barh-El-Gazel Nord
+TD1903,Barh-El-Gazel Ouest
+TD1901,Barh-El-Gazel Sud
+TD0102,Batha Est
+TD0101,Batha Ouest
+TD0103,Fittri
+TD0201,Borkou
+TD0202,Borkou Yala
+TD0301,Baguirmi
+TD0302,Chari
+TD0303,Loug Chari
+TD2001,Am-Djarass
+TD2002,Wadi Hawar
+TD2301,Fada
+TD2303,Mourtcha
+TD0402,Abtouyour
+TD0403,Barh Signaka
+TD0401,Guera
+TD0404,Mangalme
+TD0502,Dababa
+TD0501,Dagana
+TD0503,Haraze Al Biar
+TD0601,Kanem
+TD0602,Nord Kanem
+TD0603,Wadi Bissam
+TD0704,Fouli
+TD0703,Kaya
+TD0701,Mamdi
+TD0702,Wayi
+TD0802,Dodje
+TD0803,Gueni
+TD0801,Lac Wey
+TD0804,Ngourkosso
+TD0902,Kouh Est
+TD0903,Kouh Ouest
+TD0904,La nya
+TD0905,La Nya Pende
+TD0901,La Pende
+TD0906,Monts de Lam
+TD1002,Barh Sara
+TD1003,Mandoul Occidental
+TD1001,Mandoul Oriental
+TD1202,Lac Lere
+TD1203,Mayo-Binder
+TD1201,Mayo Dallah
+TD1102,La Kabbia
+TD1101,Mayo Boneye
+TD1103,Mayo Lemye
+TD1104,Mont Illi
+TD1301,Bahr Koh
+TD1302,Grande Sido
+TD1303,Lac Iro
+TD1801,N'Djamena
+TD1402,Abdi
+TD1403,Assoungha
+TD1401,Ouara
+TD1502,Aboudeia
+TD1501,Bahr Azoum
+TD1503,Haraze Mangueigne
+TD2102,Djourf Al Ahmar
+TD2101,Kimiti
+TD1603,Tandjile Centre
+TD1601,Tandjile Est
+TD1602,Tandjile Ouest
+TD2201,Tibesti Est
+TD2202,Tibesti Ouest
+TD1701,Biltine
+TD1702,Dar Tama
+TD1703,Iriba
+TD1704,Megri
+ML0901,Bamako
+ML0701,Ansongo
+ML0702,Bourem
+ML0703,Gao
+ML0704,Menaka
+ML0101,Bafoulabe
+ML0102,Diema
+ML0103,Kayes
+ML0104,Kenieba
+ML0105,Kita
+ML0106,Nioro
+ML0107,Yelimane
+ML0801,Abeibara
+ML0802,Kidal
+ML0803,Tessalit
+ML0804,Tin-Essako
+ML0201,Banamba
+ML0202,Dioila
+ML0203,Kangaba
+ML0204,Kati
+ML0205,Kolokani
+ML0206,Koulikoro
+ML0207,Nara
+ML0501,Bandiagara
+ML0502,Bankass
+ML0503,Djenne
+ML0504,Douentza
+ML0505,Koro
+ML0506,Mopti
+ML0507,Tenenkou
+ML0508,Youwarou
+ML0401,Baroueli
+ML0402,Bla
+ML0403,Macina
+ML0404,Niono
+ML0405,San
+ML0406,Segou
+ML0407,Tominian
+ML0301,Bougouni
+ML0302,Kadiolo
+ML0303,Kolondieba
+ML0304,Koutiala
+ML0305,Sikasso
+ML0306,Yanfolila
+ML0307,Yorosso
+ML0601,Dire
+ML0602,Goundam
+ML0603,Gourma-Rharous
+ML0604,Niafunke
+ML0605,Tombouctou
+MR0101,Aoujeft
+MR0102,Atar
+MR0103,Chinguity
+MR0104,Ouadane
+MR0201,Barkeol
+MR0202,Boumdeid
+MR0203,Guerrou
+MR0204,Kankossa
+MR0205,Kiffa
+MR0301,Aleg
+MR0302,Bababe
+MR0303,Boghe
+MR0305,M'Bagne
+MR0304,Maghta Lahjar
+MR0402,Chami
+MR0401,Nouadhibou
+MR0501,Kaedi
+MR0503,M'Bout
+MR0502,Maghama
+MR0504,Monguel
+MR0601,Ould Yenge
+MR0602,Selibaby
+MR0707,D'har
+MR0705,Oualata
+MR0701,Amourj
+MR0702,Bassikounou
+MR0703,Djigueni
+MR0704,Nema
+MR0706,Timbedra
+MR0801,Aioun
+MR0802,Kobeni
+MR0803,Tamchekett
+MR0804,Tintane
+MR0900,Akjoujt
+MR1000,Nouakchott
+MR1101,Moudjeria
+MR1102,Tichitt
+MR1103,Tidjikja
+MR1201,Bir Mogrein
+MR1202,F'Derik
+MR1203,Zoueratt
+MR1301,Boutilimit
+MR1302,Keur-Macene
+MR1303,Mederdra
+MR1304,Ouad Naga
+MR1305,R'kiz
+MR1306,Rosso
+NE0101,Aderbissinat
+NE0102,Arlit
+NE0103,Bilma
+NE0104,Iferouane
+NE0105,Ingall
+NE0106,Tchirozerine
+NE0201,Bosso
+NE0202,Diffa
+NE0203,Goudoumaria
+NE0204,Maïné Soroa
+NE0205,N'Gourti
+NE0206,N'Guigmi
+NE0301,Boboye
+NE0302,Dioundiou
+NE0303,Dogondoutchi
+NE0304,Dosso
+NE0305,Falmey
+NE0306,Gaya
+NE0307,Loga
+NE0308,Tibiri
+NE0401,Aguié
+NE0402,Bermo
+NE0403,Dakoro
+NE0404,Gazaoua
+NE0405,Guidan Roumdji
+NE0406,Madarounfa
+NE0408,Mayahi
+NE0409,Tessaoua
+NE0407,Ville de Maradi
+NE0801,Ville de Niamey
+NE0501,Abalak
+NE0502,Bagaroua
+NE0503,Birni N'Konni
+NE0504,Bouza
+NE0505,Illéla
+NE0506,Keita
+NE0507,Madaoua
+NE0508,Malbaza
+NE0509,Tahoua
+NE0510,Tassara
+NE0511,Tchintabaraden
+NE0512,Tillia
+NE0513,Ville de Tahoua
+NE0601,Abala
+NE0602,Ayerou
+NE0603,Balleyara
+NE0604,Banibangou
+NE0605,Bankilaré
+NE0606,Filingué
+NE0607,Gothèye
+NE0608,Kollo
+NE0609,Ouallam
+NE0610,Say
+NE0611,Téra
+NE0612,Tillabéri
+NE0613,Torodi
+NE0701,Belbedji
+NE0702,Damagaram Takaya
+NE0703,Dungass
+NE0704,Gouré
+NE0705,Kantché
+NE0706,Magaria
+NE0707,Mirriah
+NE0708,Takeita
+NE0709,Tanout
+NE0710,Tesker
+NE0711,Ville de Zinder
