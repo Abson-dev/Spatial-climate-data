@@ -8,11 +8,11 @@ gen annee = year(time2)
 gen mois = month(time2)
 gen jour = day(time2)
 
-gen ddate = mdy(mois, jour, annee)
-format ddate %td
+//gen ddate = mdy(mois, jour, annee)
+//format ddate %td
 
 gen ID = location + "_" + string(annee) + "_" + string(mois) 
-gen fourdigits = real(substr(location, -4, 4))
+//gen location_last_num = real(substr(location, -4, 4))
 //gen ddate = mdy(MONTH, DATE, YEAR)
 //format ddate %td
 //gen TEMP_DIFF= NORMAL_TEMP - MAX_TEMP
