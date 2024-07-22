@@ -14,11 +14,13 @@ drop _m
 generate time2 = date(time, "YMD")
 format %td time2
  
-/* 
+ 
 gen annee = year(time2)
 gen mois = month(time2)
 gen jour = day(time2)
 
+gen YM = string(annee) + "_" + string(mois) 
+/*
 //gen tmp_time = time2
 //format %td tmp_time
 
@@ -32,7 +34,14 @@ tab location
 encode location, generate(location2)
 tab location2
 
+keep if admin2name == "Kadiogo"
+sort annee mois
 
+gen seq = _n
+
+gen seq_1 = seq - 30
+
+replace seq_1 = 1 if seq_1<=0
 *************************************************************
 
 //              Dry periods computation
@@ -40,7 +49,7 @@ tab location2
 *************************************************************
 // Dry periods
 
-gen dry_threshold = 2 // days with less than 2 mm precipitation 
+gen dry_threshold = 2 // days with less than 2 mm precipitation (2.85 mm/d, West Africa)
 gen dry_period = (rfh < dry_threshold)
 replace dry_period = . if dry_period == 0
 
@@ -63,7 +72,7 @@ replace dry_period = . if dry_period == 0
 //               heavy rainfall
 
 *************************************************************
-gen heavy_treshold = 20 // Extreme rainfall categories (heavy>20 mm): 
+gen heavy_treshold = 20 // Extreme rainfall categories (heavy>20 mm): (>19.6mm/d, West Africa)
 gen heavy = (rfh > heavy_treshold)
 //replace heavy = . if heavy == 0
 
@@ -132,6 +141,10 @@ replace heavy_seq_max = . if n_heavy_sequence_sum == .
 //              Dry periods computation
 
 *************************************************************
+sort YM
+gen seq = _n
+
+
 tsspell , cond(rfh < dry_threshold) // & rfh < dry_threshold 
 
 replace _spell = . if _spell == 0
@@ -148,10 +161,14 @@ rename  _end dry_end
 egen dry_length = max(dry_seq), by(location2 dry_spell)
 gen dry_end_true = .
 replace dry_end_true = dry_end if dry_length !=1
-
+//Number of consecutive days with less than 2 mm precipitation in the last 30 days
+rangestat (sum) Number_cons_drydays = dry_end_true, interval(time2 -30 -1)  by(location2)
+gen Number_cons_drydays2 = Number_cons_drydays + 1 if Number_cons_drydays<=1
 drop dry_length
-
+drop dry_end_true_sum
+drop Number_cons_drydays
 rangestat (count) dry_spell, interval(time2 -30 -1)  by(location2)
+//rangestat (obs) dry_spell, interval(time2 -30 -1)  by(location2)
 
 
 rangestat (max) dry_seq, interval(time2 -30 -1)  by(location2)
