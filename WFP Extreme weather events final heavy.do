@@ -76,6 +76,8 @@ gen Number_cons_heavydays = .
 
 ***********************************
 
+//keep in 1/500
+
 levelsof seq if seq <= 30 & seq > 2, local(val)
 foreach x of local val {
 	local debut = 1
@@ -87,7 +89,7 @@ foreach x of local val {
 	rename  _end _end`x'
 	******
 	egen max_seq`x' = max(_seq`x') in `debut'/`x'
-	replace heavy_length = max_seq`x'  if seq == `x'
+	replace heavy_length = max_seq`x'  if seq == `x' //& max_seq`x'!=1
 	******
 	//gen _end`x' = .
 	replace _end`x' = 0 if heavy_period[_n]== 1 & heavy_period[_n-1]==. & heavy_period[_n+1]==. in `debut'/`x'
