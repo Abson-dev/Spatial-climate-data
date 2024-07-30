@@ -87,11 +87,11 @@ foreach x of local val {
 	rename  _end _end`x'
 	******
 	egen max_seq`x' = max(_seq`x') in `debut'/`x'
-	replace dry_length = max_seq`x'  if seq == `x'
+	replace dry_length = max_seq`x'  if seq == `x' //& max_seq`x'!=1
 	******
 	//gen _end`x' = .
 	replace _end`x' = 0 if dry_period[_n]== 1 & dry_period[_n-1]==. & dry_period[_n+1]==. in `debut'/`x'
-	egen sum_end`x' = sum(_end`x') in `debut'/`x'
+	regen sum_end`x' = sum(_end`x') in `debut'/`x'
 	replace Number_cons_drydays = sum_end`x'  if seq == `x'
 	drop max_seq`x' _seq`x' _spell`x' _end`x' sum_end`x' 
 
